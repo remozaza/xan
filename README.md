@@ -10,6 +10,14 @@
 
 After finishing our private project, we decided to make our cc checker public, for users who want to experiment. 🗿
 
+### Milestone:
+- [x] Intializing additional public and manual server.
+- [ ] Add threads (⭐ 25)
+- [ ] Add local-host (⭐ 50)
+- [ ] Add sk_cracking (⭐ 60)
+- [ ] Api refresh
+- [ ] Increase ratelimiting
+
 
 **NOTE:** 
 
