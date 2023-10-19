@@ -35,5 +35,8 @@ My telegram is @roaxxxx
 or telegram channel: @xancheck
 
 
+If you think my project is great, please click the star button
+
+
 Have fun! 🌩️
 
