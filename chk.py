@@ -33,10 +33,13 @@ if sk_enabled is True:
             
                 if "APPROVED" in response.text:
                     print(Fore.GREEN + "LIVE - " + Fore.LIGHTBLACK_EX + f"{cx} | t: @xancheck")
+                    time.sleep(0.7)
                 elif "DECLINED" in response.text:
                     print(Fore.RED + "DEAD - " + Fore.LIGHTBLACK_EX + f"{cx}")
+                    time.sleep(0.7)
                 elif "Request rate limit exceeded" in response.text:
                     print(Fore.YELLOW + "RATELIMIT -" + Fore.LIGHTBLACK_EX + f" {cx}")
+                    time.sleep(0.7)
                 else:
                     print(Fore.RED + "DEAD - SK KEY DEAD/OR SMTH")
                 time.sleep(0.7)
@@ -55,15 +58,19 @@ else:
             
                     if "APPROVED" in response.text:
                         print(Fore.GREEN + "LIVE - " + Fore.LIGHTBLACK_EX + f"{cx} | telegram: @xancheck")
+                        time.sleep(0.7)
                     elif "DECLINED" in response.text:
                         print(Fore.RED + "DEAD - " + Fore.LIGHTBLACK_EX + f"{cx} | telegram: @xancheck")
+                        time.sleep(0.7)
                     elif "rate limit" in response.text:
                         print(Fore.YELLOW + "RATELIMIT -" + Fore.LIGHTBLACK_EX + f" {cx}")
+                        time.sleep(0.7)
                     else:
                         print(Fore.RED + "our public api is overloaded, check https://t.me/xancheck for more info 🗿")
-                    time.sleep(0.7)
+                    time.sleep(0.8)
                 except requests.RequestException as e:
                     print(Fore.RED + f"DEAD - {cx} | {e}")
+                    time.sleep(0.7)
 
 
 
