@@ -16,7 +16,7 @@ After finishing our private project, we decided to make our cc checker public, f
 - [ ] Add local-host (⭐ 50)
 - [ ] Add sk_cracking (⭐ 60)
 - [ ] Api refresh
-- [ ] Increase ratelimiting
+- [x] Increase ratelimiting
 
 
 **NOTE:** 
