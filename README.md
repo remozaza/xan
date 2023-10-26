@@ -28,7 +28,7 @@ After finishing our private project, we decided to make our cc checker public, f
 **Requirements:**
 
 `Python 3.10 and modules: requests, colorama, json, random, time, os`
-
+| You can optionally download api and host it by yourself -> https://github.com/roaxxxx/xan/blob/main/api.php
 
 Contact:
 My telegram is @roaxxxx
