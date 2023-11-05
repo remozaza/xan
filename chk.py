@@ -8,7 +8,7 @@ import requests
 # only for educational purposes please
 
 def icon():
-    print(Fore.BLUE + '                    v1.0.7')
+    print(Fore.BLUE + '                    v1.2')
     print(Fore.BLUE + '               [ XAN CHECKER ]')
     print(Fore.BLUE + ' ')
     print(Fore.BLUE + '             by roaxx & rockyy')
