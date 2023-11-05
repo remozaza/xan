@@ -9,7 +9,7 @@ use Stripe\PaymentMethod;
 use Stripe\StripeObject;
 
 // sk key 
-Stripe::setApiKey('your_stripe_secret_key_here');
+Stripe::setApiKey('your_sk');
 
 $creditCardInfo = isset($_GET['cc']) ? $_GET['cc'] : null;
 
