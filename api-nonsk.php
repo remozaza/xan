@@ -1,5 +1,6 @@
 <?php
 //script by @xancheck
+//when overloaded use: cardvalid2.php
 
 
 $cc = $_GET['cc'];
