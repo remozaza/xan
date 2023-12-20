@@ -1,6 +1,8 @@
 # XAN Checker
 
-### Currently open-source version offline: Dm me @roaxxxx on tg for more info
+### Currently open-source version patched, new version here: https://t.me/xancheck
+![23](https://i.imgur.com/SC6KdqI.png)
+
 
 **🏗️ Recent problems with server overloading, causes our project to be updated more frequently. However, if you are annoyed by the frequent failures of the public server, please contact me on Telegram. You can rent a private server (NO TRIALS!!).**
 
@@ -23,11 +25,12 @@ After finishing our private project, we decided to make our cc checker public, f
 ### Milestone:
 - [x] Intializing additional public and manual server.
 - [x] Add GUI Option
-- [ ] Add threads (⭐ 25)
+- [x] Add threads
 - [ ] Add local-host (⭐ 50)
 - [ ] Add sk_cracking (⭐ 60)
-- [ ] Api refresh
+- [x] Api refresh
 - [x] Increase ratelimiting
+- [x] REMOVE MANUAL SERVER
 
 
 **NOTE:** 
