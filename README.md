@@ -26,6 +26,7 @@ After finishing our private project, we decided to make our cc checker public, f
 - [x] Intializing additional public and manual server.
 - [x] Add GUI Option
 - [x] Add threads
+- [x] Add Telegram bot script
 - [ ] Add local-host (⭐ 50)
 - [ ] Add sk_cracking (⭐ 60)
 - [x] Api refresh
