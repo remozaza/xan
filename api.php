@@ -28,8 +28,8 @@ if ($creditCardInfo) {
     ]);
 
     if ($paymentMethod instanceof StripeObject && isset($paymentMethod->id)) {
-        // temporary charge of $0.01 to $0.05
-        $amount = mt_rand(1, 5) / 100;
+        // temporary charge of $0.50 to $0.99
+        $amount = mt_rand(50, 99) / 100;
         $currency = 'usd';
 
         //  charge
