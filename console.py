@@ -8,10 +8,10 @@ import requests
 # only for educational purposes please
 
 
-# v4.1 open source update
+# v4.1 open source API update
 
 def icon():
-    print(Fore.BLUE + '                    v4.1')
+    print(Fore.BLUE + '                    v4.1 API - TOOL v1.2')
     print(Fore.BLUE + '               [ XAN CHECKER ]')
     print(Fore.BLUE + ' ')
     print(Fore.BLUE + '                 by roaxx')
