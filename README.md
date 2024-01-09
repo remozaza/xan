@@ -22,7 +22,14 @@ LTC: `ltc1qmq4tc0vxq9jahzvtw2znl2lr4xlmnvktfhatq0`
 ![23](https://i.imgur.com/SC6KdqI.png)
 
 
-**🏗️ Recent problems with server overloading, causes our project to be updated more frequently. However, if you are annoyed by the frequent failures of the public server, please contact me on Telegram. You can rent a private server (NO TRIALS!!).**
+
+
+
+
+
+
+
+
 
 
 ### GUI Version:
