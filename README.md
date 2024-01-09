@@ -1,5 +1,23 @@
 # XAN Checker
 
+## Support Us:
+
+Every $1 is an extension of checker support. Thank you supporters! 
+
+LTC: `ltc1qmq4tc0vxq9jahzvtw2znl2lr4xlmnvktfhatq0`
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Currently open-source version patched, new version here: https://t.me/xancheck
 ![23](https://i.imgur.com/SC6KdqI.png)
 
