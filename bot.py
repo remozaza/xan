@@ -5,16 +5,16 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, CommandHandler, Filters
 
 
-TELEGRAM_BOT_TOKEN = 'ur token'
+TELEGRAM_BOT_TOKEN = '7105791625:AAFQO4AH2GGMSCu8F2LliDn6NKlmhTmVmeg'
 
 
-COOLDOWN_TIME = 15
+COOLDOWN_TIME = 5
 
 
 last_executed_time = {}
 
 def check_card(cx):
-    url = f"your-url"  # 2update soon
+    url = f"bot by remoxxo"  # 2update soon
     try:
         response = requests.get(url, verify=False)
         if "Live" in response.text:
